@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(209, 175, 156);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 40px;
+}
+.content{
+   
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+input{
+    font-size: 20px;
+    padding:20px;
+
+    border-radius: 10px;
+}
+select{
+    background-color: rgb(172, 134, 87);
+    border: 2px solid rgb(53, 50, 50);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight:600;
+    padding:10px;
+    color: rgb(59, 60, 61);
+}
+textarea{
+    visibility:hidden;
+    padding: 8px;
+    margin-top: 10px;
+    width: 260px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(224, 234, 224);
+    font-weight: bold;
+    border:4px rgb(53, 50, 50) solid;
+    background-color: rgba(242, 49, 49, 0.329);
+    border-radius: 10px;
+}
+.btn{
+    cursor: pointer;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(246, 243, 237);
+}
+.btn:hover {
+background-color: rgb(172, 134, 87);
+}
+@media screen and (max-width: 480px) {
+    .container {
+        font-size: 20px;
+        background-color: rgb(179, 205, 205);
+        margin: 5%;
+        margin-right: 5%;
+        width:100%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+  }
+body {
+    background-color: rgb(0, 122, 128);
+}
